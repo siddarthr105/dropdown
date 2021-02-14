@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+    background: #f2f2f2;
+}
+
+.blood{
+    width: 100%;
+    background: rgb(147, 161, 161);
+    height: 80px;
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+
+
+}
+ul li{
+    float: left;
+    margin-top: 20px;
+}
+
+ul li a{
+    width: 150px;
+    background-color: white;
+    display: block;
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    margin-left: 10px;
+ }
+ 
+ a:hover{
+     background-color: violet;
+ }
+
+  ul li ul{
+      background-color:rgb(125, 163, 163);
+
+
+  }
+  ul li ul li{
+      float:none;
+
+  }
+  ul li ul{
+      display: none;
+  }
+  ul li:hover ul{
+      display: block;
+  }
+
+ 
